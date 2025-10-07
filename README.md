@@ -42,6 +42,26 @@ If you have state that's important to retain within a component, consider creati
 ```ts
 // store.ts
 // An extremely simple external store
-import { writable } from 'svelte/store'
-export default writable(0)
+import { writable } from "svelte/store";
+export default writable(0);
 ```
+
+## Useful References
+
+- [[GitHub] vitejs / vite](https://github.com/vitejs/vite)
+
+  - [[GitHub] vitejs / vite - package: create-vite](https://github.com/vitejs/vite/tree/main/packages/create-vite)
+
+- [Vite.js Guide](https://vitejs.dev/guide/)
+
+  - [Features](https://vitejs.dev/guide/features.html)
+
+- [[YouTube] Vite in 100 Seconds | Fireship](https://www.youtube.com/watch?v=KCrXgy8qtjM) (2022/02/23)
+
+- [[YouTube] Svelte in 100 Seconds | Fireship](https://www.youtube.com/watch?v=rv3Yq-B8qp4) (2021/04/13)
+
+- [[YouTube] Svelte 5 Basics - Complete Svelte 5 Course for Beginners | Syntax](https://www.youtube.com/watch?v=8DQailPy3q8) (2024/10/19)
+
+  - [[GitHub] stolinski/svelte-5-course](https://github.com/stolinski/svelte-5-course)
+
+- [The Complete Svelte 5 Course | Joy of Code](https://joyofcode.xyz/learn-svelte) (2025/08/14)
