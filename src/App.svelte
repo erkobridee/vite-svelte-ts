@@ -3,7 +3,9 @@
 
   import svelteLogo from "~/assets/svelte.svg";
 
-  import viteLogo from "/vite.svg";
+  // https://vitejs.dev/guide/assets.html#explicit-url-imports
+  // that looks on the public directory
+  import viteLogo from "/vite.svg?url";
 </script>
 
 <svelte:head>
@@ -19,7 +21,8 @@
       <img src={svelteLogo} class="logo svelte" alt="Svelte Logo" />
     </a>
   </div>
-  <h1>Vite + Svelte</h1>
+
+  <h1>Vite v7.x + TypeScript v5.x + Svelte v5.x</h1>
 
   <div class="card">
     <Counter />
