@@ -13,14 +13,18 @@
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "6.2.1",
+    "@tailwindcss/vite": "4.1.14",
     "@tsconfig/svelte": "5.0.5",
     "@types/node": "24.7.0",
     "cross-env": "10.1.0",
     "npm-run-all2": "8.0.4",
-    "svelte": "5.39.10",
     "svelte-check": "4.3.2",
     "typescript": "5.9.3",
     "vite": "7.1.9",
     "vite-tsconfig-paths": "5.1.4"
+  },
+  "dependencies": {
+    "svelte": "5.39.10",
+    "tailwindcss": "4.1.14"
   }
 }

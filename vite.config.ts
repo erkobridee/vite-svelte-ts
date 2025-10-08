@@ -1,6 +1,7 @@
 import { defineConfig } from "vite";
-import { svelte } from "@sveltejs/vite-plugin-svelte";
 import tsconfigPaths from "vite-tsconfig-paths";
+import { svelte } from "@sveltejs/vite-plugin-svelte";
+import tailwindcss from "@tailwindcss/vite";
 
 import { name } from "./package.json";
 
@@ -15,5 +16,5 @@ const isProduction = `${nodeEnv}` === "production";
 export default defineConfig({
   ...(isProduction ? { base: `/${name}/` } : { build: { sourcemap: true } }),
 
-  plugins: [svelte(), tsconfigPaths()],
+  plugins: [tailwindcss(), svelte(), tsconfigPaths()],
 });

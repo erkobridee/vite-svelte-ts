@@ -6,14 +6,16 @@
   // https://vitejs.dev/guide/assets.html#explicit-url-imports
   // that looks on the public directory
   import viteLogo from "/vite.svg?url";
+
+  import "~/styles/global.css";
 </script>
 
 <svelte:head>
-  <title>Vite + TS + Svelte</title>
+  <title>Vite + TS + Svelte + TailwindCSS</title>
 </svelte:head>
 
-<main>
-  <div>
+<main class="flex flex-col gap-5">
+  <div class="flex justify-center gap-5">
     <a href="https://vite.dev" target="_blank" rel="noreferrer">
       <img src={viteLogo} class="logo" alt="Vite Logo" />
     </a>
@@ -22,7 +24,7 @@
     </a>
   </div>
 
-  <h1>Vite v7.x + TypeScript v5.x + Svelte v5.x</h1>
+  <h1>Vite v7.x + TypeScript v5.x + Svelte v5.x + TailwindCSS v4.x</h1>
 
   <div class="card">
     <Counter />
@@ -40,18 +42,25 @@
 </main>
 
 <style>
+  .card {
+    padding: 2em;
+  }
+
   .logo {
     height: 6em;
     padding: 1.5em;
     will-change: filter;
     transition: filter 300ms;
   }
+
   .logo:hover {
     filter: drop-shadow(0 0 2em #646cffaa);
   }
+
   .logo.svelte:hover {
     filter: drop-shadow(0 0 2em #ff3e00aa);
   }
+
   .read-the-docs {
     color: #888;
   }
