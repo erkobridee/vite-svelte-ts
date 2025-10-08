@@ -3,7 +3,7 @@
 
   import svelteLogo from "~/assets/svelte.svg";
 
-  import viteLogo from "public/vite.svg";
+  import viteLogo from "/vite.svg";
 </script>
 
 <svelte:head>
