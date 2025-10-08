@@ -1,5 +1,13 @@
 # Svelte + TS + Vite
 
+- [Vite.js](https://vitejs.dev/)
+
+- [TypeScript](https://www.typescriptlang.org/)
+
+- [Svelte](https://svelte.dev/)
+
+  - [TypeScript support](https://svelte.dev/docs/svelte/typescript)
+
 This template should help get you started developing with Svelte and TypeScript in Vite.
 
 ## Recommended IDE Setup
@@ -45,6 +53,44 @@ If you have state that's important to retain within a component, consider creati
 import { writable } from "svelte/store";
 export default writable(0);
 ```
+
+## Commands
+
+### Creation
+
+```
+npm create vite@latest vite-svelte-ts -- --template svelte-ts
+```
+
+### Development
+
+```
+npm start
+
+or
+
+npm run dev
+```
+
+### Production Build
+
+```
+npm run build
+```
+
+#### Preview
+
+```
+npm run preview
+```
+
+### Create a new project using this as a template
+
+```
+npx degit erkobridee/vite-svelte-ts ${project_name}
+```
+
+- [Vite.js > Guide > Getting Started > Community Templates](https://vitejs.dev/guide/#community-templates)
 
 ## Useful References
 
