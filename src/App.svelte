@@ -6,6 +6,10 @@
   import viteLogo from "public/vite.svg";
 </script>
 
+<svelte:head>
+  <title>Vite + TS + Svelte</title>
+</svelte:head>
+
 <main>
   <div>
     <a href="https://vite.dev" target="_blank" rel="noreferrer">
