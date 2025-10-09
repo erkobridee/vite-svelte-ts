@@ -1,4 +1,4 @@
-# Svelte + TS + Vite
+# Svelte + TS + Vite [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/erkobridee/vite-svelte-ts)
 
 - [Vite.js](https://vitejs.dev/)
 
