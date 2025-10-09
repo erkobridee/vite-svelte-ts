@@ -84,13 +84,47 @@ import { writable } from 'svelte/store';
 export default writable(0);
 ```
 
+## Project setup steps
+
+1. Project setup - [9b3f7831](https://github.com/erkobridee/vite-svelte-ts/commit/9b3f7831adcd7a77d7ff290d180e45d472b0340e)
+
+   ```
+   npm create vite@latest vite-svelte-ts -- --template svelte-ts
+   ```
+
+2. Define custom import alias - [793b1124](https://github.com/erkobridee/vite-svelte-ts/commit/793b112423beb512842fc7e3df99d6e060bef6d3)
+
+   ```
+   npm i -D vite-tsconfig-paths
+   ```
+
+3. Add Tailwind CSS - [ab89a654](https://github.com/erkobridee/vite-svelte-ts/commit/ab89a6541f18607a151cc0aa71843eeb7fc31f37)
+
+   ```
+   npm i -S tailwindcss
+
+   npm i -D @tailwindcss/vite
+   ```
+
+4. Add Prettier - [d8f189e2](https://github.com/erkobridee/vite-svelte-ts/commit/d8f189e2e9147969598ac9bd7b7aa4930e7f83c0)
+
+   ```
+   npm i -D prettier prettier-plugin-svelte prettier-plugin-tailwindcss
+   ```
+
+5. Add ESLint - [59de56c1](https://github.com/erkobridee/vite-svelte-ts/commit/59de56c18e62d06936a554ff8223afd0bc65764b)
+
+   ```
+   npm i -D globals eslint eslint-plugin-svelte @eslint/compat @typescript-eslint/eslint-plugin @typescript-eslint/parser
+   ```
+
+6. Add git precommit hook - [231dce57](https://github.com/erkobridee/vite-svelte-ts/commit/231dce5752844ad505c67b7a4ad412fecfbfe33e)
+
+   ```
+   npm i -D is-ci lint-staged simple-git-hooks
+   ```
+
 ## Commands
-
-### Creation
-
-```
-npm create vite@latest vite-svelte-ts -- --template svelte-ts
-```
 
 ### Development
 
