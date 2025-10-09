@@ -1,13 +1,13 @@
 <script lang="ts">
-  import Counter from "~/components/Counter.svelte";
+  import Counter from '~/components/Counter.svelte';
 
-  import svelteLogo from "~/assets/svelte.svg";
+  import svelteLogo from '~/assets/svelte.svg';
 
   // https://vitejs.dev/guide/assets.html#explicit-url-imports
   // that looks on the public directory
-  import viteLogo from "/vite.svg?url";
+  import viteLogo from '/vite.svg?url';
 
-  import "~/styles/global.css";
+  import '~/styles/global.css';
 </script>
 
 <svelte:head>
