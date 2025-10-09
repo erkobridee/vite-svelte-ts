@@ -86,7 +86,7 @@ export default writable(0);
 
 ## Project setup steps
 
-1. Project setup - [9b3f7831](https://github.com/erkobridee/vite-svelte-ts/commit/9b3f7831adcd7a77d7ff290d180e45d472b0340e)
+1. Project creation - [9b3f7831](https://github.com/erkobridee/vite-svelte-ts/commit/9b3f7831adcd7a77d7ff290d180e45d472b0340e)
 
    ```
    npm create vite@latest vite-svelte-ts -- --template svelte-ts
