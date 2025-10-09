@@ -4,6 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "unset:git-hooks-path": "git config --unset core.hooksPath",
+    "simple-git-hooks": "npx simple-git-hooks",
+    "postinstall": "is-ci || npm run simple-git-hooks",
     "prettier": "prettier --write .",
     "eslint": "eslint --fix \"src/**/*.{js,ts,svelte}\"",
     "lint": "run-s prettier eslint",
@@ -26,10 +29,13 @@
     "eslint": "9.37.0",
     "eslint-plugin-svelte": "3.12.4",
     "globals": "16.4.0",
+    "is-ci": "4.1.0",
+    "lint-staged": "16.2.3",
     "npm-run-all2": "8.0.4",
     "prettier": "3.6.2",
     "prettier-plugin-svelte": "3.4.0",
     "prettier-plugin-tailwindcss": "0.6.14",
+    "simple-git-hooks": "2.13.1",
     "svelte-check": "4.3.3",
     "typescript": "5.9.3",
     "vite": "7.1.9",
@@ -38,5 +44,12 @@
   "dependencies": {
     "svelte": "5.39.11",
     "tailwindcss": "4.1.14"
+  },
+  "lint-staged": {
+    "**/*.{js,ts,md,mdx,svelte}": "prettier --write",
+    "src/**/*.{js,ts,svelte}": "eslint --fix"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "npx lint-staged"
   }
 }
