@@ -43,7 +43,7 @@
     "vite-tsconfig-paths": "6.0.4"
   },
   "dependencies": {
-    "svelte": "5.46.4",
+    "svelte": "5.47.0",
     "tailwindcss": "4.1.18"
   },
   "lint-staged": {
