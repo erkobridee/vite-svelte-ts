@@ -176,3 +176,7 @@ npx degit erkobridee/vite-svelte-ts ${project_name}
 
 - [The Complete Svelte 5 Course | Joy of Code](https://joyofcode.xyz/learn-svelte)
   (2025/08/14)
+
+- [[GitHub] mateothegreat/svelte5-router](https://github.com/mateothegreat/svelte5-router) - An SPA router for Svelte that allows you to divide & conquer your app with nested routers, snippets, and more.
+
+- [[GitHub] kaisermann/svelte-i18n](https://github.com/kaisermann/svelte-i18n) - Internationalization library for Svelte
