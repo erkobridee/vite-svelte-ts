@@ -18,7 +18,7 @@
     "ci": "cross-env NODE_ENV=production run-s build"
   },
   "devDependencies": {
-    "@eslint/compat": "2.1.0",
+    "@eslint/compat": "2.1.1",
     "@sveltejs/vite-plugin-svelte": "6.2.4",
     "@tailwindcss/vite": "4.3.3",
     "@tsconfig/svelte": "5.0.8",
