@@ -10,6 +10,7 @@
     "prettier": "prettier --write .",
     "eslint": "eslint --fix \"src/**/*.{js,ts,svelte}\"",
     "lint": "run-s prettier eslint",
+    "tsc": "npx tsc --noEmit",
     "start": "vite",
     "dev": "vite",
     "build": "vite build",
