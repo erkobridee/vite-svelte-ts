@@ -24,7 +24,7 @@
     </a>
   </div>
 
-  <h1>Vite v7.x + TypeScript v6.x + Svelte v5.x + TailwindCSS v4.x</h1>
+  <h1>Vite v8.x + TypeScript v6.x + Svelte v5.x + TailwindCSS v4.x</h1>
 
   <div class="card">
     <Counter />
