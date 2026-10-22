@@ -177,6 +177,25 @@ npx degit erkobridee/vite-svelte-ts ${project_name}
 - [The Complete Svelte 5 Course | Joy of Code](https://joyofcode.xyz/learn-svelte)
   (2025/08/14)
 
+- [[GitHub] kaisermann/svelte-i18n](https://github.com/kaisermann/svelte-i18n) - Internationalization library for Svelte
+
+### Router
+
 - [[GitHub] mateothegreat/svelte5-router](https://github.com/mateothegreat/svelte5-router) - An SPA router for Svelte that allows you to divide & conquer your app with nested routers, snippets, and more.
 
-- [[GitHub] kaisermann/svelte-i18n](https://github.com/kaisermann/svelte-i18n) - Internationalization library for Svelte
+- [[GitHub] ItalyPaleAle/svelte-spa-router](https://github.com/ItalyPaleAle/svelte-spa-router) - Router for SPAs using Svelte
+
+### Data Fetching
+
+- [TanStack Query](https://tanstack.com/query)
+
+  - [[GitHub] tanstack/query](https://github.com/tanstack/query) - Powerful asynchronous state management, server-state utilities and data fetching for the web. TS/JS, React Query, Solid Query, Svelte Query and Vue Query.
+
+    - [packages/svelte-query](https://github.com/TanStack/query/tree/main/packages/svelte-query)
+
+  - [Overview | TanStack Query Svelte Docs](https://tanstack.com/query/latest/docs/framework/svelte/overview)
+
+### GitHub Actions
+
+- [[GitHub] peaceiris / actions-gh-pages](https://github.com/peaceiris/actions-gh-pages) - GitHub Actions for GitHub Pages 🚀 Deploy static files and publish your site easily. Static-Site-Generators-friendly.
+  - Before the first execution on a github repository, go on the Settings > Code and automation > Actions > General > Workflow permissions, and make sure to have the Read and write permissions selected
