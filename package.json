@@ -22,7 +22,7 @@
     "@eslint/compat": "2.1.1",
     "@eslint/js": "10.0.1",
     "@sveltejs/vite-plugin-svelte": "7.3.1",
-    "@tailwindcss/vite": "4.3.4",
+    "@tailwindcss/vite": "4.3.5",
     "@tsconfig/svelte": "5.0.8",
     "@types/node": "26.6.6",
     "@typescript-eslint/eslint-plugin": "8.72.1",
@@ -45,7 +45,7 @@
   },
   "dependencies": {
     "svelte": "5.57.3",
-    "tailwindcss": "4.3.4"
+    "tailwindcss": "4.3.5"
   },
   "lint-staged": {
     "**/*.{js,ts,md,mdx,svelte}": "prettier --write",
